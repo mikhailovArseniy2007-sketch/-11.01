@@ -10,4 +10,14 @@
 
 Пример:
 
-`void task1()`
+```
+void task1()
+{
+  std::vector<int> data = {1, 2, 3, 4, 5 };
+  for (int elem : data)
+  {
+    cout << elem;
+  }
+  cout << "\n";
+}
+```
