@@ -21,3 +21,16 @@ void task1()
   cout << "\n";
 }
 ```
+
+### Инициализация списка
+
+```
+#include <string>
+#include <vector>
+
+int main() {
+  std::vector<std::string> v1; // Пустой вектор
+  std::vector<std::string> v2(5); // Вектор из пяти пустых строк
+  std::vector<std::string> v3(5, "helloy"); // Вектор из пяти строк "helloy"
+}
+```
